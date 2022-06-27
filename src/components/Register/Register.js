@@ -1,8 +1,8 @@
 export default function Register() {
     
     return (
-    <div className = "Register">
-        <h1>sdfsdf</h1>
+    <div>
+        <h1>Register Here</h1>
     </div>
     )
 }

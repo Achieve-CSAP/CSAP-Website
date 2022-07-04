@@ -1,0 +1,10 @@
+#heroSection {
+    height: 50vh;
+    background-image: url("../../assets/heroImage.png");
+}
+
+#heroText {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

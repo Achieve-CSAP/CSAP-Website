@@ -1,10 +1,58 @@
-#heroSection {
-    height: 50vh;
-    background-image: url("../../assets/heroImage.png");
+/* Containers */
+.introContainers {
+    margin-left: 20vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
 }
 
-#heroText {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+#learnMoreBtn {
+    border-radius: 20px;
+    color: #3A86FF;
+    font-weight: 700;
+    border: #3A86FF 2px solid;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 19px;
+    padding-right: 19px;
+    background-color: white;
+    margin-right: 1vw;
+}
+
+#donateBtn {
+    border-radius: 20px;
+    background-color:  #3A86FF;
+    border: none;
+    font-weight: 700;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+/* Text */
+
+#homeTextIntro {
+    font-weight: 600;
+    color: #83B3FF;
+}
+#mainHomeText {
+    font-weight: 700;
+    color: #023047;
+}
+#csText {
+    color: #3A86FF;
+}
+
+.introContainers p {
+    color: #023047;
+}
+
+/* Images */
+#shapesImage {
+    width:50%;
+}
+
+#keyImage {
+    width:100%;
 }

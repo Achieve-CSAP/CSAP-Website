@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import Contact from './components/Contact/Contact'
 import About from './components/About/About';
@@ -23,7 +22,6 @@ root.render(
         <Route path = '/contact' element={<Contact />}/>
         <Route path = '/register' element={<Register />}/>
       </Routes>
-      <Footer />
     </Router>
   </React.StrictMode>
 );

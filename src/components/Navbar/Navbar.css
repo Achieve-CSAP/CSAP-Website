@@ -1,10 +1,39 @@
+/* Container */
 #navContainer {
-    
+    padding: 3vh;
+    border-bottom: rgba(50,50,50,0.1) 1px solid;
+}
+#navLinkContainer {
+    margin-left: 25%;
+    margin-top: 1vh;
 }
 
-#navTitle {
-   
+#registerBtn {
+    background-color: #3A86FF;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:white;
+    font-weight: 600;
 }
+/* Text */
+#navLogo {
+    color: #023047;
+    font-weight: 700;
+}
+
 .navItem{
-    
+    margin-right: 4vw;
+    color: #023047;
+    font-weight: 600;
+
+}
+
+/* Images */
+#navIcon {
+    width: 2vw;
+    margin-right: 1vw;
+    margin-left: 25%;
 }

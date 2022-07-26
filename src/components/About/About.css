@@ -1,0 +1,68 @@
+/* Text */
+#pageHeader {
+  color: #83b3ff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-weight: 650;
+  padding: 2%;
+}
+
+#sectionHeading {
+  color: #023047;
+  font-weight: 700;
+  margin-top: 7%;
+  margin-left: 15%;
+}
+
+#whoAreWe {
+  font-size: 28px;
+  margin-left: 15%;
+  width: 80%;
+  margin-top: 2%;
+}
+
+/* containers */
+#imageCol {
+  max-width: 30%;
+}
+
+/* Images */
+#aboutUsPhoto {
+  border-radius: 10%;
+  margin-left: 40%;
+  width: 25vw;
+  height: 60vh;
+  margin-top: 10%;
+  display: inline-block;
+}
+
+#shapes {
+  margin: auto;
+  display: block;
+  width: 45%;
+  height: 45%;
+}
+
+.circleOne {
+  height: 300px;
+  width: 250px;
+  background-color: #83b3ff;
+  border-radius: 50%;
+  /* display: inline-block; */
+  margin-top: -100%;
+  float: left;
+  margin-left: 15%;
+}
+
+.circleTwo {
+  height: 100px;
+  width: 100px;
+  background-color: #83b3ff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: -95%;
+  /* float: right; */
+  margin-left: 115%;
+}

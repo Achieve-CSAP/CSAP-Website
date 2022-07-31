@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 
-import logoIcon from "../../assets/Logo.svg";
+import logoIcon from "../../assets/CSAP.svg";
 
 export default function Navbar() {
   return (

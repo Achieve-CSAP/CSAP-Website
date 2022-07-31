@@ -4,6 +4,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import studentsWorking from "../../assets/studentsWorking.png";
 import shapesImage from "../../assets/Shapes.jpg";
+import orthoLogo from "../../assets/orthoLogo.png"
+import aslaLogo from "../../assets/aslaLogo.png"
+import stellaLogo from "../../assets/stellaLogo.png"
+import jmLogo from "../../assets/jmLogo.png"
 
 export default function Home() {
   return (
@@ -23,7 +27,7 @@ export default function Home() {
           </div>
           <div class="introContainers">
             <button id="learnMoreBtn">Learn More</button>
-            <button id = "schoolsBtn">Schools</button>
+            <button id="schoolsBtn">Schools</button>
             <button id="donateBtn">Connect With Us</button>
           </div>
           <img
@@ -40,6 +44,32 @@ export default function Home() {
             alt="Students being productive"
           />
         </Col>
+      </Row>
+
+      <Row>
+        <h1>Our Partners</h1>
+        <h3>At CSAP, we believe that our most valuable partners
+          are our students. Without them, we would not be able to
+          create such an impact on the future generation of tech.
+        </h3>
+        <Row>
+          <Col>
+            <img className = "partnerLogo" src = {orthoLogo}/>
+          </Col>
+          <Col>
+            <img className = "partnerLogo" src = {aslaLogo}/>
+          </Col>
+          <Col>
+            <img className = "partnerLogo"  src = {stellaLogo}/>
+          </Col>
+          <Col>
+            <img className = "partnerLogo"  src = {jmLogo}/>
+          </Col>
+          <Col>
+
+          </Col>
+        </Row>
+
       </Row>
     </div>
   );

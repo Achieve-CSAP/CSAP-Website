@@ -29,6 +29,18 @@
     padding-left: 19px;
     padding-right: 19px;
 }
+#schoolsBtn {
+    border-radius: 20px;
+    background-color:  #3A86FF;
+    border: none;
+    font-weight: 700;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 19px;
+    padding-right: 19px;
+    margin-right: 1vw;
+}
 
 /* Text */
 

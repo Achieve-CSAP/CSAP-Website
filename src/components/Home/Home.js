@@ -23,7 +23,7 @@ export default function Home() {
           </div>
           <div class="introContainers">
             <button id="learnMoreBtn">Learn More</button>
-            <button>Connect With Us</button>
+            <button id = "schoolsBtn">Schools</button>
             <button id="donateBtn">Connect With Us</button>
           </div>
           <img

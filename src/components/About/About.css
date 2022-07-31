@@ -15,25 +15,86 @@
   margin-top: 7%;
   margin-left: 15%;
 }
+#sectionHeading2 {
+  color: #023047;
+  font-weight: 700;
+  margin-top: 7%;
+  margin-left: 15%;
 
+}
+.involveRow{
+  /* margin-top: 20% */
+}
+#sectionOne{
+  margin-top: 100px;
+  margin-bottom:300px;
+}
+#sectionTwo{
+  margin-top: 300px;
+  margin-bottom:300px;
+}
+#sectionThree{
+  margin-top: 200px;
+  margin-bottom:200px;
+}
 #whoAreWe {
-  font-size: 28px;
+  font-size: 23px;
+  margin-left: 15%;
+  width: 80%;
+  margin-top: 2%;
+}
+#whoAreWe span{
+  color: #3A86FF
+}
+
+#getInvolved{
+  font-size: 23px;
   margin-left: 15%;
   width: 80%;
   margin-top: 2%;
 }
 
+#competition{
+  font-size: 23px;
+  margin-left: 15%;
+  width: 80%;
+  margin-top: 2%;
+}
+
+
 /* containers */
 #imageCol {
+  max-width: 30%;
+}
+#imageColTwo {
+  max-width: 30%;
+}
+#imageColThree {
   max-width: 30%;
 }
 
 /* Images */
 #aboutUsPhoto {
   border-radius: 10%;
+  margin-left: 35%;
+  width: 22vw;
+  height: 50vh;
+  margin-top: 10%;
+  display: inline-block;
+}
+#getInvolvedPhoto {
+  border-radius: 10%;
+  margin-left: 5%;
+  width: 22vw;
+  height: 40vh;
+  margin-top: 10%;
+  display: inline-block;
+}
+#competitionPhoto {
+  border-radius: 10%;
   margin-left: 40%;
-  width: 25vw;
-  height: 60vh;
+  width: 22vw;
+  height: 35vh;
   margin-top: 10%;
   display: inline-block;
 }
@@ -46,14 +107,14 @@
 }
 
 .circleOne {
-  height: 300px;
-  width: 250px;
+  height: 230px;
+  width: 230px;
   background-color: #83b3ff;
   border-radius: 50%;
   /* display: inline-block; */
   margin-top: -100%;
   float: left;
-  margin-left: 15%;
+  margin-left: 20%;
 }
 
 .circleTwo {
@@ -62,7 +123,99 @@
   background-color: #83b3ff;
   border-radius: 50%;
   display: inline-block;
-  margin-top: -95%;
+  margin-top: -10%;
   /* float: right; */
-  margin-left: 115%;
+  margin-left: 100%;
 }
+
+.circleThree {
+  height: 230px;
+  width: 230px;
+  background-color: #ffd001;
+  border-radius: 50%;
+  /* display: inline-block; */
+  margin-top: -90%;
+  float: right;
+  margin-right: 5%;
+}
+
+.circleFour {
+  height: 120px;
+  width: 120px;
+  background-color: rgb(252, 219, 120);
+  border-radius: 50%;
+  display: inline-block;
+  /* float: right; */
+  margin-right: 100%;
+  margin-top: -10%;
+}
+.circleFourTwo {
+  height: 200px;
+  width: 200px;
+  background-color: #ffd001;
+  border-radius: 50%;
+  /* display: inline-block; */
+  margin-top: -50%;
+  float: left;
+  margin-right: 5%;
+}
+.circleFourThree {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(252, 219, 120);
+  border-radius: 50%;
+  /* display: inline-block; */
+  margin-top: -66%;
+  float: right;
+  margin-right: 5%;
+}
+
+
+
+.circleFive {
+  height: 230px;
+  width: 230px;
+  background-color: #023047;
+  border-radius: 50%;
+  /* display: inline-block; */
+  margin-top: -80%;
+  float: left;
+  margin-left: 20%;
+}
+
+.circleSix {
+  height: 100px;
+  width: 100px;
+  background-color: #394146;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: -10%;
+  /* float: right; */
+  margin-left: 105%;
+}
+
+
+.scroll{
+  margin: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
+.scroll:hover{
+  opacity: 50%;
+} 
+
+.scrollUP{
+  margin: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  transform: rotate(180deg);
+}
+.scrollUP:hover{
+  opacity: 50%;
+} 
+
+

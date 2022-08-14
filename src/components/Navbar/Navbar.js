@@ -15,7 +15,7 @@ export default function Navbar() {
           <span>
             <img id="navIcon" src={logoIcon} alt="CSAP Logo" />
           </span>
-          <span id="navLogo">Computer Science Acheivement Program</span>
+          <span id="navLogo">Computer Science Achievement Program</span>
         </Col>
         <Col>
           <div id="navLinkContainer">

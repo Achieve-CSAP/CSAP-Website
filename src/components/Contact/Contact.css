@@ -1,0 +1,42 @@
+.headerDiv{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.contactTitle{
+    font-weight: 700;
+    color: #023047; 
+    text-align: center
+}
+
+.contact-info{
+    float:right
+}
+.contact-form{
+    float: left;
+}
+
+.submitBtn{
+    padding: 20px;
+}
+#submit{
+    width: 200px;
+    text-align:center;
+}
+.mailImg{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+h2{
+    text-align: center;
+}
+.container{
+    margin-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.contactRow{
+    padding: 40px;
+}

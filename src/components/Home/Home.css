@@ -70,3 +70,70 @@
     height: 88vh;
 }
 
+
+/* partners */ 
+.logo-list::before {
+  
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+.logo-list {
+   position: relative;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    padding-top: 100px;
+    text-align: center;
+  color: white;
+}
+.logo-list img {
+    display: inline-block;
+    max-width: 85%;
+    padding: 15px 0;
+    transition: all 0.3s ease-in-out;
+    -webkit-filter: grayscale(100);
+    -moz-filter: grayscale(100);
+    filter: grayscale(100);
+}
+.logo-list img:hover {
+    filter: none;
+    transform: scale(1.2);
+    -webkit-filter: none;
+    -moz-filter: none;
+}
+.logo-list .col-sm-6:hover{
+  position: relative;
+  text-align: center;
+  color: black;
+} 
+.logo-list h1 {
+    font-weight: 700;
+    color: #023047;
+  position: relative;
+}
+.partners{
+    font-weight: 200;
+    color: #023047;
+    font-size: 25px;
+}
+
+#stellaLogo{
+    width: 60%;
+}
+#orthoLogo{
+    width: 60%;
+}
+#jmLogo{
+    width: 60%;
+}
+#aslaLogo{
+    width: 60%;
+}

@@ -9,49 +9,111 @@ import logoIcon from "../../assets/CSAP.svg";
 
 export default function Footer() {
   return (
-    <div id="footerContainer">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-      <Row>
-        <Col>
-          <Row>
-            <Col>
-              {" "}
-              <img src={CSAPLogo}></img>
-            </Col>
-            <Col>Computer Science Achivement Program</Col>
-          </Row>
-        </Col>
-        <Col>
-          <ul>
-            <li>achieve.computerscience@gmail.com</li>
-            <li>csap_official</li>
-          </ul>
-        </Col>
-        <Col>
-        <Row>
-        <NavLink to="/" className="footerItem">
-              Home
-            </NavLink>
-            <NavLink to="/about" className="footerItem">
-              About
-            </NavLink>
-            <NavLink to="/contact" className="footerItem">
-              Contact
-            </NavLink>
-            <NavLink to="/register" className="footerItem">
-              Join
-            </NavLink>
+    
+    <footer class="footer-section">
+      <hr></hr>
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>822 W 32nd St, Los Angeles, CA 90007
+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>(213) - 456 - 1448</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>achieve.computerscience@gmail.com </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="/"><img src={CSAPLogo} class="img-fluid" alt="logo"></img> <span></span></a>
+                        </div>
+                        <div class="footer-text">
+                            <p>Here at CSAP, our mission is to expose high school students in underserved communities to the field of Computer Science through experiential learning, hands-on experience, and civic engagement.
+                            </p>
+                        </div>
 
-        </Row>
-        <Row>
-            <ul>
-            <li><a href="#" className = "social" class="fa fa-instagram"></a> </li>
-            <li><a href="#" className = "social" class="fa fa-twitter"></a></li>
-            <li><a href="#" className = "social" class="fa fa-linkedin"></a></li>
-            </ul>
-        </Row>
-        </Col>
-      </Row>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Useful Links</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="/About">About</a></li>
+                            <li><a href="/Roadmap">Contact</a></li>
+                            <li><a href="/Marketplace">Join</a></li>
+    
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Subscribe</h3>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                        </div>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <input type="text" placeholder="Email Address"></input>
+                                <button><i class="fab fa-telegram-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2022, All Right Reserved <a href="/">Computer Science Achievement Program</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Join</a></li>
+        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
   );
 }

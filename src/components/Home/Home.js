@@ -46,31 +46,35 @@ export default function Home() {
         </Col>
       </Row>
 
-      <Row>
-        <h1>Our Partners</h1>
-        <h3>At CSAP, we believe that our most valuable partners
-          are our students. Without them, we would not be able to
-          create such an impact on the future generation of tech.
-        </h3>
-        <Row>
-          <Col>
-            <img className = "partnerLogo" src = {orthoLogo}/>
-          </Col>
-          <Col>
-            <img className = "partnerLogo" src = {aslaLogo}/>
-          </Col>
-          <Col>
-            <img className = "partnerLogo"  src = {stellaLogo}/>
-          </Col>
-          <Col>
-            <img className = "partnerLogo"  src = {jmLogo}/>
-          </Col>
-          <Col>
+      <section className="logo-list">
+    <div className="container">
+      <h1 > A Huge Thank You to Our Partners! </h1>
+      <h2 className = "partners">At CSAP, we believe that our most valuable partners are our students. Without them, we would not be able to create such an impact on the future generation of tech.</h2>
+        <br></br>
+        <div className="row">
+            <div className=" col-sm-6">
+                <a target = "_blank" ><img src={jmLogo} id = "jmLogo" className="img-fluid" alt="jm logo"></img></a> <br></br>
+              
+            </div>
+            <div className="col-sm-6">
+                <a target = "_blank" ><img src={stellaLogo} id = "stellaLogo" className="img-fluid" alt="stella logo"></img></a> <br></br>
+                
+            </div>
+        </div>
+        <div className="row">
+            <div className=" col-sm-6">
+                <a target = "_blank" href=""><img src={aslaLogo} id = "aslaLogo" className="img-fluid" alt=" asla logo"></img></a> 
+                 <br></br>
+                
+            </div>
+            <div className=" col-sm-6">
+                <a target = "_blank"><img src={orthoLogo} id = "orthoLogo" className="img-fluid" alt=" ortho logo"></img></a> <br></br>
+               
+            </div>
+          </div>
+    </div>
+</section>
 
-          </Col>
-        </Row>
-
-      </Row>
     </div>
   );
 }

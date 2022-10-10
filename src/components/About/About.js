@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./About.css";
 import AboutUsPhoto from "../../assets/csclub.png";
-import GetInvolvedPhoto from "../../assets/codingimage.jpeg";
+import GetInvolvedPhoto from "../../assets/classroom.jpg";
 import Hackathon from "../../assets/hackathon.jpg";
 import scrolldown from "../../assets/scrolldown.svg";
 import { Link } from "react-scroll";

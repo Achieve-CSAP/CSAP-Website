@@ -31,9 +31,9 @@ export default function Navbar() {
             <NavLink to="/register" className="navItem">
               Join
             </NavLink>
-            <NavLink id="registerBtn" to="/donate" className="navItem">
-              Donate
-            </NavLink>
+            <a href = "https://www.gofundme.com/f/the-computer-science-achievement-program?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1">
+            <button id="donateBtn">Donate</button>
+            </a>
           </div>
         </Col>
       </Row>

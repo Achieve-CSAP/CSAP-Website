@@ -19,7 +19,7 @@ export default function Footer() {
                     <div class="single-cta">
                         <i class="fas fa-map-marker-alt"></i>
                         <div class="cta-text">
-                            <h4>Find us</h4>
+                            <h4>Find Us</h4>
                             <span>822 W 32nd St, Los Angeles, CA 90007
 </span>
                         </div>
@@ -29,7 +29,7 @@ export default function Footer() {
                     <div class="single-cta">
                         <i class="fas fa-phone"></i>
                         <div class="cta-text">
-                            <h4>Call us</h4>
+                            <h4>Call Us</h4>
                             <span>(213) - 456 - 1448</span>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ export default function Footer() {
                     <div class="single-cta">
                         <i class="far fa-envelope-open"></i>
                         <div class="cta-text">
-                            <h4>Mail us</h4>
+                            <h4>Email Us</h4>
                             <span>achieve.computerscience@gmail.com </span>
                         </div>
                     </div>

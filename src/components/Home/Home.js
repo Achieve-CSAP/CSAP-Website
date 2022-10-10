@@ -5,9 +5,11 @@ import Col from "react-bootstrap/Col";
 import studentsWorking from "../../assets/studentsWorking.png";
 import shapesImage from "../../assets/Shapes.jpg";
 import orthoLogo from "../../assets/orthoLogo.png"
-import aslaLogo from "../../assets/aslaLogo.png"
+import aslaLogo from "../../assets/uscmae.png"
 import stellaLogo from "../../assets/stellaLogo.png"
 import jmLogo from "../../assets/jmLogo.png"
+import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -26,9 +28,17 @@ export default function Home() {
             </p>
           </div>
           <div class="introContainers">
-            <button id="learnMoreBtn">Learn More</button>
-            <button id="schoolsBtn">Schools</button>
-            <button id="donateBtn">Connect With Us</button>
+          <a href = "/about"> <button id="learnMoreBtn">Learn More</button></a>
+    
+    <Link
+          to="names"
+          spy={true}
+          smooth={true}
+          offset={-180}
+          duration={500}
+        ><button id="schoolsBtn">Schools</button></Link>
+  <a href = "/contact"> <button id="donateBtn">Connect With Us</button></a>
+          
           </div>
           <img
             class="introContainers"
@@ -46,7 +56,7 @@ export default function Home() {
         </Col>
       </Row>
 
-      <section className="logo-list">
+      <section id = "names" className="logo-list">
     <div className="container">
       <h1 > A Huge Thank You to Our Partners! </h1>
       <h2 className = "partners">At CSAP, we believe that our most valuable partners are our students. Without them, we would not be able to create such an impact on the future generation of tech.</h2>

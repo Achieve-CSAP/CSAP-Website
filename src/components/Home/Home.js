@@ -16,9 +16,9 @@ export default function Home() {
     <div>
       <Row>
         <Col>
-          <div class="introContainers">
-            <h3 id="homeTextIntro">Building the future</h3>
-            <h1 id="mainHomeText">
+          <div className="introContainers">
+            <h3 className = "typewriter-text" id="homeTextIntro">Building the future.</h3>
+            <h1 id="mainHomeText" >
               Experiential learning, hands-on experience, and civic engagement.
             </h1>
             <p>
@@ -41,7 +41,7 @@ export default function Home() {
           
           </div>
           <img
-            class="introContainers"
+            className="introContainers bounce"
             id="shapesImage"
             src={shapesImage}
             alt="Shapes"

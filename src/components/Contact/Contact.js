@@ -45,7 +45,7 @@ export default function Contact() {
                 placeholder="EMAIL"
                 name="email"
                 value=""
-                required
+                
               />
             </Col>
           </div>
@@ -74,7 +74,7 @@ export default function Contact() {
         </Col>
         <Col className = "contact-info">
             <p className = "contactDesc"> If you would like to keep in contact with us and continue communication, email us at our email
-              and follow our Instagram!
+              and follow our <a target ="_blank"href = "https://www.instagram.com/csap_official/">Instagram</a>!
             </p>
             <img className = "mailImg"src = {Mail}></img>
         </Col>
